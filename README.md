@@ -1,49 +1,39 @@
-# About the project
-Bluemazon is an e-commerce that focus sell electronic item. Company has run business for some year and want to improve their sales strategy. They want to analyze 2019 sales and generating insights from sales data, trends, and metrics to set targets. Company need data analyst to provides insights about the top performing and underperforming products, the problems in selling and market opportunities, and sales activities that generate revenue.
+# ABOUT THE PROJECT
+Bluemazon is an E-Commerce that focuses on selling electronic items. The company has run the business for some year and want to improve its sales strategy. They want to analyze 2019 sales and generate insights from sales data, trends, and metrics to set targets. They need data analysts to provide insights about the top-performing and underperforming products, the problems in selling and market opportunities, and sales activities that generate revenue.
 
+### Goals and Objective
+- Generate insight and recommendations based on 2019 sales data.
+- Process and Analyze the dataset to create a bundle of recommendations.
 
-# Goals and Objective
-  * Goal
-    - Generate insight and recommendation based on 2019 sales data.
-  * Objective
-    - Process datasets to usable form
-    - Analyze data and create bundle recommendation.
+### Getting Started
+To run this project you will need a Jupyter notebook to run data analysis.
 
-
-
-# Getting Started
-To run this project you will need Jupyter notebook to run data analysis.
-## Built with
-- [![Python][Python.com]][Python-url]
-- [![Jupyter][Jupyter.com]][Jupyter-url]
-- <a href="https://pandas.pydata.org/">
+### Built with 
+[![Python][Python.com]][Python-url] [![Jupyter][Jupyter.com]][Jupyter-url]
+<a href="https://pandas.pydata.org/">
     <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=white" alt="Logo" >
-  </a>
-
-- <a href="https://matplotlib.org/stable/index.html">
+</a>
+<a href="https://matplotlib.org/stable/index.html">
     <img src="https://img.shields.io/badge/matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Logo" >
-  </a>
-- <a href="https://seaborn.pydata.org/index.html">
+</a>
+<a href="https://seaborn.pydata.org/index.html">
     <img src="https://img.shields.io/badge/seaborn-000000?style=for-the-badge&logo=seaborn&logoColor=white" alt="Logo" >
-  </a>
-## Prerequisites
-These are some library you need to run the project, i put the pip installation to make it easy for you.
+</a>
+  
+### Prerequisites
+These are some libraries you need to run the project, I put the pip installation to make it easy for you.
 
+```sh
+pip install pandas
+```
+```sh
+pip install matplotlib
+```
+```sh
+pip install seaborn
+```
 
-* Pandas
-  ```sh
-  pip install pandas
-  ```
-* Matplotlib
-  ```sh
-  pip install matplotlib
-  ```
-* Seaborn
-  ```sh
-  pip install seaborn
-  ```
-
-## Resources
+### Resources
 For more detailed dataset information visit <a href='https://www.kaggle.com/datasets/knightbearr/sales-product-data?datasetId=1695352&sortBy=voteCount'>kaggle</a> page.
 
 # Data Processing
