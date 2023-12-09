@@ -36,63 +36,51 @@ pip install seaborn
 ### Resources
 For more detailed dataset information visit <a href='https://www.kaggle.com/datasets/knightbearr/sales-product-data?datasetId=1695352&sortBy=voteCount'>kaggle</a> page.
 
-# Data Processing
-Avalaible data are 12 csv files for each month sales data. Dataset were concatenante and resulting 186,850 orders data. Dataset contain 545 null values and some unmatch feature data types. Extract some feature such as month, day, hour, city, sales.
-# Data Analysis
-## Descriptive Analysis
+Available data are 12 CSV files for each month's sales data for the year 2019. Datasets were concatenated resulting in 186,850 orders data. The dataset contains 545 null values and some unmatch feature data types. Extract some features such as month, day, hour, city, and sales.
 
 <img src="images/image1.png" alt="Logo" width="500" height="auto">
 
-Customer mostly order 1 item at once, some small group order 2 item at once, highest order are in 9 item at once. Sales for each order are in range 2.99 to 3400. Distribution for sales and Price Each relatively same it is because most quantity order is 1.
-
-Summary sales 2019, total revenue <b>34,483,365.68 USD, 185,916 orders and 209,038 items sold.</b>
-
-## Univariate Analysis
+Customers mostly order 1 item at once, some small groups order 2 items at once, highest orders are for 9 items at once. Sales for each order are in the range 2.99 to 3400. Distribution for sales and Price Each relatively the same it is because most quantity order is 1. Summary sales 2019, total revenue <b>34,483,365.68 USD, 185,916 orders and 209,038 items sold.</b>
 
 <img src="images/image2.png" alt="Logo" width="500" height="auto">
 
-Most of orders are from California (CA), San Francisco and Los Angeles around more than 40,000 and 30,000 orders. Average orders in cities are around 18,000 orders.
+Most of the orders are from California (CA), San Francisco and Los Angeles with more than 40,000 and 30,000 orders. Average orders in cities are around 18,000 orders.
 
 <img src="images/image3.png" alt="Logo" width="500" height="auto">
 
-High order are happen in December and October that have 25,000 and 20,000 orders. There are increasing pattern order in January to April then decrease to September.
-
-## Multivariate Analysis
+High orders happen in December and October have 25,000 and 20,000 orders. There are increasing pattern orders in January to April then a decrease in September.
 
 <img src="images/image4.png" alt="Logo" width="500" height="auto">
 
-There is peak of sales in around 9:00 to 21:00. This pattern can be a good spot to promote products to increase more sales.
+There is a peak of sales from around 9:00 to 21:00. This pattern can be a good spot to promote products to increase sales.
 
 <img src="images/image5.png" alt="Logo" width="500" height="auto">
 
-Top product sold are on Battery products, then followed by Charging cable, and Headphones.
+The top products sold are Battery products, followed by Charging cables, and Headphones.
 
-# Insight and Recommendation
+### Some Useful Insight
 
-1. Product Combination <br>
-There are some frequently combination of products in customer orders behavior. Most of combination are in : 
+##### Product Combination 
+There are some frequent combinations of products in customer order behaviour. Most of the combinations are in the : 
 
-    <img src="images/image6.png" alt="Logo" width="300" height="auto">
+<img src="images/image6.png" alt="Logo" width="300" height="auto">
 
-    - Phone product + Charging cable 
-    - Phone product + Headphone
-    - Charging cable + Headphone
+- Phone product + Charging cable 
+- Phone product + Headphone
+- Charging cable + Headphone
+- This data can support product bundling to increase sales of specific products.
 
-    This data can support to make product bundling to increase more sales of specifict product.
+##### Rush Hour 
+There is a peak of sales from around 9:00 to 21:00. It means that in this time range most customers tend to place orders. This peak can be a sweet spot to promote advertising.
 
-2. Rush Hour <br>
-There is peak of sales in around 9:00 to 21:00. It is means that in this time range mostly customer tend to place order. This peak can be sweet spot to promote advertising.
+<img src="images/image4.png" alt="Logo" width="500" height="auto">
+This data can be supported to post more ads on the rush hour time span.
 
-    <img src="images/image4.png" alt="Logo" width="500" height="auto">
+##### Order Probability 
+Charging cables have relatively the same probability. iPhone has a higher probability than Google Phone. Wired Headphones have the highest order probability on headphone product type.
 
-    This data can be support to post more ads on the rush hour time span.
-
-3. Order Probability <br>
-Charging cable have relatively same probability. iPhone have higher probability than Google Phone. Wired Headphones have highest order probability on headphones product type.
-
-    <img src="images/image7.png" alt="Logo" width="500" height="auto">
-
-    This data can support to have more product stock and marketing on higher product order probability.
+<img src="images/image7.png" alt="Logo" width="500" height="auto">
+This data can support having more product stock and marketing on higher product order probability.
 
 
 
