@@ -1,14 +1,8 @@
-# ABOUT THE PROJECT
-Bluemazon is an E-Commerce that focuses on selling electronic items. The company has run the business for some year and want to improve its sales strategy. They want to analyze 2019 sales and generate insights from sales data, trends, and metrics to set targets. They need data analysts to provide insights about the top-performing and underperforming products, the problems in selling and market opportunities, and sales activities that generate revenue.
+# About the Repository
 
-### Goals and Objective
-- Generate insight and recommendations based on 2019 sales data.
-- Process and Analyze the dataset to create a bundle of recommendations.
+This repository is a collection of data science and machine learning project. Some of the datasets are local while some are taken from kaggle. More respective details are given below in each section.
 
-### Getting Started
-To run this project you will need a Jupyter notebook to run data analysis.
-
-### Built with 
+##### Built with 
 [![Python][Python.com]][Python-url] [![Jupyter][Jupyter.com]][Jupyter-url]
 <a href="https://pandas.pydata.org/">
     <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=white" alt="Logo" >
@@ -33,55 +27,9 @@ pip install matplotlib
 pip install seaborn
 ```
 
-### Resources
-For more detailed dataset information visit <a href='https://www.kaggle.com/datasets/knightbearr/sales-product-data?datasetId=1695352&sortBy=voteCount'>kaggle</a> page.
+### Project # 1 : Big Mart Sales Prediction
 
-Available data are 12 CSV files for each month's sales data for the year 2019. Datasets were concatenated resulting in 186,850 orders data. The dataset contains 545 null values and some unmatch feature data types. Extract some features such as month, day, hour, city, and sales.
-
-<img src="images/image1.png" alt="Logo" width="500" height="auto">
-
-Customers mostly order 1 item at once, some small groups order 2 items at once, highest orders are for 9 items at once. Sales for each order are in the range 2.99 to 3400. Distribution for sales and Price Each relatively the same it is because most quantity order is 1. Summary sales 2019, total revenue <b>34,483,365.68 USD, 185,916 orders and 209,038 items sold.</b>
-
-<img src="images/image2.png" alt="Logo" width="500" height="auto">
-
-Most of the orders are from California (CA), San Francisco and Los Angeles with more than 40,000 and 30,000 orders. Average orders in cities are around 18,000 orders.
-
-<img src="images/image3.png" alt="Logo" width="500" height="auto">
-
-High orders happen in December and October have 25,000 and 20,000 orders. There are increasing pattern orders in January to April then a decrease in September.
-
-<img src="images/image4.png" alt="Logo" width="500" height="auto">
-
-There is a peak of sales from around 9:00 to 21:00. This pattern can be a good spot to promote products to increase sales.
-
-<img src="images/image5.png" alt="Logo" width="500" height="auto">
-
-The top products sold are Battery products, followed by Charging cables, and Headphones.
-
-### Some Useful Insight
-
-##### Product Combination 
-There are some frequent combinations of products in customer order behaviour. Most of the combinations are in the : 
-
-<img src="images/image6.png" alt="Logo" width="300" height="auto">
-
-- Phone product + Charging cable 
-- Phone product + Headphone
-- Charging cable + Headphone
-- This data can support product bundling to increase sales of specific products.
-
-##### Rush Hour 
-There is a peak of sales from around 9:00 to 21:00. It means that in this time range most customers tend to place orders. This peak can be a sweet spot to promote advertising.
-
-<img src="images/image4.png" alt="Logo" width="500" height="auto">
-This data can be supported to post more ads on the rush hour time span.
-
-##### Order Probability 
-Charging cables have relatively the same probability. iPhone has a higher probability than Google Phone. Wired Headphones have the highest order probability on headphone product type.
-
-<img src="images/image7.png" alt="Logo" width="500" height="auto">
-This data can support having more product stock and marketing on higher product order probability.
-
+The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and store have been defined. The aim is to build a predictive model and predict the sales of each product at a particular outlet. Using this model, BigMart will try to understand the properties of products and outlets which play a key role in increasing sales. The <a href='https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets'>dataset</a> use in this project is taken from kaggle.
 
 
 [Python.com]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
